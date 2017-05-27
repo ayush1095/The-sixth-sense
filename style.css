@@ -1,0 +1,122 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	/*background-color:rgba(151, 201, 201, 0.16);*/
+    font-family: 'Roboto Slab', serif;
+    background-color: #343236;
+    background-image: url("https://www.transparenttextures.com/patterns/brushed-alum-dark.png");
+}
+.header{
+	background-color: rgba(255, 255, 255, 0.29);
+	color: white;
+	text-align: center;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	padding: 5px;
+	margin-bottom: 30px;
+	max-width: 100vw;
+}
+table{
+	width: 100%;
+	line-height: 200%;
+}
+select{
+	margin.top: 2px;
+	height: 28px;
+	border: 1px solid #1A3333;
+	font-size: 16px;
+	padding: 1px;
+	width: 100%;
+}
+.button{
+	margin: 2px auto;
+	max-width: 20%;
+}
+form{
+	width: 40%;
+	padding: 30px;
+	border: 1px solid #1A3333;
+	margin: 5px auto;
+	margin-top:20px;
+	box-shadow: 5px 5px 4px 2px rgba(0, 0, 0, 0.6);
+	background-color: rgba(255, 255, 255, 0.29);
+}
+.textField{
+	margin.top: 2px;
+	height: 28px;
+	border: 1px solid #1A3333;
+	font-size: 16px;
+	padding: 1px;
+	width: 100%;
+}
+#error_msg{
+	width: 40%;
+	margin: 5px auto;
+	height: 20px;
+	padding-bottom: 5px;
+	border: 1px solid #FF0000;
+	background: #FFB9B8;
+	color: #FF0000;
+	box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.6);
+	text-align: center;
+	padding-top: 5px;
+}
+.click{
+	background: white;
+	text-align: center;
+}
+
+td{
+	text-align: left;
+	margin-left: 10px;
+	padding-left: 10px;
+}
+textarea{
+	width: 100%;
+	box-shadow: 1px 1px 3px 1px #1A3333;
+	font-family: 'Roboto Slab', serif;
+	font-size: 12px;
+
+}
+input,select{
+	border-radius: 5px;
+	border: 2px solid #1A3333;
+	width:100%;
+	height: 30px;
+	padding-left: 10px;
+	box-sizing: border-box;
+	box-shadow: 1px 1px 3px 1px #1A3333;
+}
+input[type=submit]{
+	margin-top: 10px;
+	margin-bottom: -5px;
+	height: 29px;
+	font-size: 12px;
+	font-weight: bold;
+	color:#FFFFFF;
+	text-shadow:0 1px #4D1124;
+	border-width: 1px;
+	border-style: solid;
+	border-color:#4629ff;
+	border-radius: 7px 7px 7px 7px;
+	outline: none;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	background: #1A3333;
+	-webkit-box-shadow: inset 0 0 3px #1A3333;
+	-moz-box-shadow: inset 0 0 3px #1A3333;
+	box-shadow: inset 0 0 3px #1A3333;
+}
+input[type=submit]:active{
+    background-color: #7D0F33;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #AA1E4D), color-stop(100%, #7D0F33));
+    background-image: -webkit-linear-gradient(top, #4c3dce, #8337d3);
+    background-image: -moz-linear-gradient(center top , #AA1E4D, #7D0F33);
+    background-image: -ms-linear-gradient(top, #AA1E4D, #7D0F33);
+    background-image: -o-linear-gradient(top, #AA1E4D, #7D0F33);
+    background-image: linear-gradient(top, #AA1E4D, #7D0F33);
+    -webkit-box-shadow:0 1px #CD4170 inset, 0 1px 2px #93284C;
+    -moz-box-shadow:0 1px #CD4170 inset, 0 1px 2px #93284C;
+    box-shadow:0 1px #5711ed inset, 0 1px 2px #3a44ed;
+}
