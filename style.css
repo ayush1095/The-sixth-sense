@@ -1,20 +1,42 @@
 body{
 	padding: 0px;
-	margin: 0px;
+	margin: 0px auto;
 	/*background-color:rgba(151, 201, 201, 0.16);*/
     font-family: 'Roboto Slab', serif;
     background-color: #343236;
-    background-image: url("https://www.transparenttextures.com/patterns/brushed-alum-dark.png");
+    background-image: url("images/blur.jpg");
+    /* Set a specific height */
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .header{
-	background-color: rgba(255, 255, 255, 0.29);
 	color: white;
-	text-align: center;
+    margin: 2px auto;
 	border-left-width: 0px;
 	border-right-width: 0px;
-	padding: 5px;
-	margin-bottom: 30px;
+	padding: 2px;
 	max-width: 100vw;
+	margin-bottom: 20px;
+}
+.light{
+		background-color: rgba(255, 255, 255, 0.29);
+}
+.dark{
+	background-color: rgba(168, 168, 168, 0.4);
+}
+.tdtext{
+	font-weight: bold;
+}
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+h1{
+	width:90%;
 }
 table{
 	width: 100%;
@@ -24,13 +46,13 @@ select{
 	margin.top: 2px;
 	height: 28px;
 	border: 1px solid #1A3333;
-	font-size: 16px;
+	font-size: 13px;
 	padding: 1px;
 	width: 100%;
 }
 .button{
-	margin: 2px auto;
-	max-width: 20%;
+	margin: 0px auto;
+	max-width: 30%;
 }
 form{
 	width: 40%;
@@ -38,55 +60,61 @@ form{
 	border: 1px solid #1A3333;
 	margin: 5px auto;
 	margin-top:20px;
-	box-shadow: 5px 5px 4px 2px rgba(0, 0, 0, 0.6);
-	background-color: rgba(255, 255, 255, 0.29);
+	box-shadow: 5px 5px 4px 2px rgba(110, 110, 110, 0.49);
 }
-.textField{
-	margin.top: 2px;
-	height: 28px;
-	border: 1px solid #1A3333;
-	font-size: 16px;
-	padding: 1px;
-	width: 100%;
+.textInput{
+	
+}
+.textInput2{
+
+}
+#t2{
+	width: 50%;
 }
 #error_msg{
 	width: 40%;
-	margin: 5px auto;
+	margin: 1px auto;
 	height: 20px;
-	padding-bottom: 5px;
+	padding-bottom: 3px;
 	border: 1px solid #FF0000;
 	background: #FFB9B8;
 	color: #FF0000;
-	box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.6);
+	box-shadow: 5px 5px 4px 2px rgba(110, 110, 110, 0.49);
 	text-align: center;
-	padding-top: 5px;
+	padding-top: 3px;
 }
 .click{
-	background: white;
 	text-align: center;
+	font-weight: bolder;
+	color: white;
+	font-size: 14;
 }
-
 td{
 	text-align: left;
 	margin-left: 10px;
 	padding-left: 10px;
+	line-height: 250%;
 }
 textarea{
 	width: 100%;
-	box-shadow: 1px 1px 3px 1px #1A3333;
+	box-shadow: 1px 1px 3px 1px rgba(232, 232, 232, 0.42);
 	font-family: 'Roboto Slab', serif;
 	font-size: 12px;
-
 }
-input,select{
+.textInput,select{
 	border-radius: 5px;
-	border: 2px solid #1A3333;
+	border: 1px solid #1A3333;
 	width:100%;
+	font-size: 12;
 	height: 30px;
 	padding-left: 10px;
 	box-sizing: border-box;
-	box-shadow: 1px 1px 3px 1px #1A3333;
+	box-shadow: 1px 1px 1px 1px rgba(232, 232, 232, 0.42);
 }
+ul{
+	width: inherit;
+}
+
 input[type=submit]{
 	margin-top: 10px;
 	margin-bottom: -5px;
