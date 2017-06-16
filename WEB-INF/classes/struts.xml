@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<constant name="struts.devMode" value="true" />
+	<package name="p1" extends="struts-default">
+		
+		<action name="signup" class="com.tss.welcome.WelcomeTss" method="execute">
+			<result name="student">/Student_signup.jsp</result>
+			<result name="faculty">/Faculty_signup.jsp</result>
+			<result name="admin">/Admin_signup.jsp</result>
+		</action>
+		
+		<action name="Student_signup" class="com.tss.Student.StudentTss" method="execute">
+			<result name="success">/Student_signup.jsp</result>
+			<result name="input">/Student_signup.jsp</result>
+			<result name="error">/Error.jsp</result>			
+		</action>
+		
+	</package>
+</struts>

@@ -1,16 +1,12 @@
 body{
 	padding: 0px;
 	margin: 0px auto;
-	/*background-color:rgba(151, 201, 201, 0.16);*/
     font-family: 'Roboto Slab', serif;
-    background-color: #343236;
-    background-image: url("images/blur.jpg");
-    /* Set a specific height */
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+	z-index:9999;
 }
 .header{
 	color: white;
@@ -22,7 +18,7 @@ body{
 	margin-bottom: 20px;
 }
 .light{
-		background-color: rgba(255, 255, 255, 0.29);
+	background-color: rgba(255, 255, 255, 0.29);
 }
 .dark{
 	background-color: rgba(168, 168, 168, 0.4);
