@@ -1,0 +1,10 @@
+.brand{
+	float:left;
+	height:90px;
+	padding:0px;
+	font-size:18px;
+}
+.text-justify{
+    text-align: justify;
+    text-justify: inter-word;
+}
